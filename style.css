@@ -146,7 +146,7 @@ input:focus {
 
 .plan-cards {
     padding-top: 20px;
-    align-items: left;
+    align-items: center;
     display: flex;
     justify-content: center;
     margin-left: 10%;
@@ -156,22 +156,30 @@ input:focus {
 }
 
 .plan-card1 {
-    background-color: #4f9da615;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDF5F6;
     margin: 15px;
     padding: 40px;
+    width: 300;
 }
 
 .plan-card2 {
-
-    background-color: #ff59591a;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFEEEE;
     margin: 15px;
     padding: 40px;
+    width: 300;
 }
 
 .plan-card3 {
-    background-color: #fff4d688;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF4D6;
     margin: 15px;
     padding: 40px;
+    width: 300;
 }
 
 .section4 {
@@ -247,27 +255,34 @@ input:focus {
     color: #ffffff;
 }
 
-
-
 .newsletter-button {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
-    padding: 12px 20px;
     background-color: #FF5959;
-    border-radius: 5px;
     color: #ffffff;
     text-decoration: none;
+    text-decoration: none;
+    background-color: #ff5959;
+    color: #fff;
+    padding: 9px 35px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid #ff5959;
 }
 
+.newsletter-button:hover {
+    background-color: #d84b4b;
+}
 
-.newsletter {
+.contact-us {
     padding: 50px 0px;
     background-color: #aacfff18;
 }
 
 
-.nl-header {
+.cu-header {
     font-size: 42px;
     font-weight: 700;
     text-align: center;
@@ -275,7 +290,7 @@ input:focus {
     margin-bottom: 10px;
 }
 
-.nl-desc {
+.cu-desc {
     font-size: 18px;
     text-align: center;
     justify-content: center;
@@ -299,10 +314,11 @@ input:focus {
     border: 1px solid #e5e5e5;
     border-radius: 5px;
     background-color: #ffffff;
+    box-sizing: auto;
 }
 
 .contact-input textarea {
-    text-align: inherit;
+    text-align: auto;
     border: 1px solid #e5e5e5;
     border-radius: 5px;
 }
@@ -344,30 +360,12 @@ input:focus {
     border: 2px solid #ff5959;
 }
 
-.newsletter-button {
-    text-decoration: none;
-    background-color: #ff5959;
-    color: #fff;
-    padding: 16px 35px;
-    border: none;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    font-weight: 500;
-    cursor: pointer;
-    border-top: 1px solid #ff5959;
-    border-right: 1px solid #ff5959;
-    border-bottom: 1px solid #ff5959;
-}
 
 .newsletter-container {
     width: 70%;
     margin: 40px auto;
-    background-color: #fff4d6;
+    background-color: #fff8e4;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
 }
 
 #footer {
