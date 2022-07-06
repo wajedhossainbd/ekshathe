@@ -49,7 +49,7 @@ p {
 
 .banner-title {
     font-size: 55px;
-    font-weight: 200;
+    font-weight: 600;
     color: #ffffff;
     margin: 0;
 }
@@ -67,10 +67,12 @@ p {
 }
 
 .donation-title {
-    font-size: 36px;
-    font-weight: 600;
+    font-family: 'inter', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
     color: #000000;
     margin: 0;
+    padding-top: 100px;
 }
 
 .donation-container {
@@ -79,9 +81,9 @@ p {
 }
 
 .donation-desc {
-    font-size: 20px;
-    font-weight: 300;
-    color: #505050;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
     padding: 10px 0;
 }
 
@@ -89,14 +91,16 @@ p {
     width: 350px;
     text-align: center;
     border: none;
-    padding: 10px;
+    padding: 30px;
 }
 
 .donation-area {
     text-align: center;
+    padding: 40px;
 }
 
 .donation-amount-preset {
+    padding-top: 20px;
     display: inline-flex;
 }
 
@@ -142,4 +146,102 @@ input[type="text" i] {
 textarea:focus,
 input:focus {
     outline: none;
+}
+
+.plan-title {
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #000000;
+    margin: 0;
+}
+
+.plan-desc {
+    font-family: 'inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #707070;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.plan-cards {
+    padding-top: 20px;
+    align-items: left;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+
+}
+
+.plan-card1 {
+    background-color: #4f9da615;
+    margin: 15px;
+    padding: 40px;
+    height: 400px;
+}
+
+.plan-card2 {
+
+    background-color: #ff59591a;
+    margin: 15px;
+    padding: 40px;
+}
+
+.plan-card3 {
+    background-color: #fff4d688;
+    margin: 15px;
+    padding: 40px;
+}
+
+.section4 {
+    display: flex;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.section-card-image {
+    min-width: 300px;
+    max-height: 500px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 50px;
+}
+
+.section-card-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.section-content {
+
+    margin-left: 20px;
+    padding-right: 50px;
+
+
+    width: 500px;
+    max-height: 500px
+}
+
+.section-card-desc {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.section-button {
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 20px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
 }
