@@ -1,4 +1,145 @@
-h1{
+h1 {
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 150;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(assets/Images/Banner\ 1.jpg);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 650px;
+    left: 0px;
+    top: 0px;
+}
+
+.banner-content {
+    position: flex;
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner-title {
+    font-size: 55px;
+    font-weight: 200;
+    color: #ffffff;
+    margin: 0;
+}
+
+.donation-button {
+    font-family: 'inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 12px 20px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.donation-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+}
+
+.donation-container {
+    text-align: center;
+    padding: 55px 0 10px 0;
+}
+
+.donation-desc {
+    font-size: 20px;
+    font-weight: 300;
+    color: #505050;
+    padding: 10px 0;
+}
+
+.donation-other-amount {
+    width: 350px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+}
+
+.donation-area {
+    text-align: center;
+}
+
+.donation-amount-preset {
+    display: inline-flex;
+}
+
+input[type=button] {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: 25px;
+    text-align: center;
+    background-color: #FAFAFA;
+    color: #707070;
+    border: none;
+    border-radius: 5px;
+
+}
+
+input[type=button]:hover {
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: solid 2px;
+    border-color: #FF5959;
+}
+
+
+input[type="text" i] {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    height: 20px;
+    width: 160px;
+    color: #FF5959;
+
+
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
 }
